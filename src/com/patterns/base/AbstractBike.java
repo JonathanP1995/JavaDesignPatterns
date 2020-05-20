@@ -38,6 +38,18 @@ public abstract class AbstractBike implements BikeInterface {
         this.color = color;
     }
 
+    public void cleanFrame() {
+        System.out.println("Cleaning Frame.......");
+    }
+
+    public void airTires() {
+        System.out.println("Airing up Tires.....");
+    }
+
+    public void testDrive() {
+        System.out.println("Taking bike out for a Test Drive.....");
+    }
+
     @Override
     public String toString() {
         return getClass().getSimpleName() + " (" + wheel + "), " +
