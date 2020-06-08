@@ -37,7 +37,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        //exampleAbstractFactory();
+        exampleAbstractFactory();
         //exampleBuilder();
         //exampleSingleton();
         //exampleAdapter();
@@ -47,7 +47,7 @@ public class Main {
         //exampleIterator2();
         //exampleObserver();
         //exampleObserver2();
-        exampleVisitor();
+        //exampleVisitor();
     }
 
     public static void exampleVisitor() {
